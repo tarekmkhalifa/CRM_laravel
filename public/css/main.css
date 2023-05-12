@@ -1,0 +1,70 @@
+    aside nav {
+        width: 250px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        box-shadow: 1px 5px 10px #d1d1d1;
+        z-index: 1;
+    }
+
+    nav .logo {
+        text-align: center;
+        margin: 20px 0 40px;
+    }
+
+    .navigation .logout {
+        width: 100%;
+        position: absolute;
+        bottom: 5px;
+    }
+    
+
+    nav .navigation ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav .navigation ul li {
+        margin: 10px 0;
+        padding: 5px 15px;
+        cursor: pointer;
+        transition: all ease 0.4s;
+    }
+
+    nav .navigation ul li:hover,
+    nav .navigation ul li:active,
+    nav .navigation ul li:focus {
+        background-color: #333333;
+    }
+
+    nav .navigation ul li a {
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        color: #333333;
+        font-size: 1.2rem;
+        transition: all ease 0.4s;
+    }
+
+    nav .navigation ul li:hover a,
+    nav .navigation ul li:active a,
+    nav .navigation ul li:focus a {
+        color: #ffffff;
+    }
+
+
+    .active {
+        background-color: #333333;
+    }
+
+    nav .navigation ul li.active a {
+        color: #ffffff;
+
+    }
+
+    main {
+        margin-left: 20%;
+    }
